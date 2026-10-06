@@ -1,17 +1,25 @@
-# lista_tarefas_provider
+# Garagem Virtual 🚗
 
-A new Flutter project.
+Aplicativo desenvolvido em Flutter para gerenciamento de uma garagem virtual. O projeto permite cadastrar veículos, visualizar seus detalhes, adicionar carros aos favoritos e remover veículos da garagem.
 
-## Getting Started
+O gerenciamento de estado da aplicação é realizado utilizando o **Provider** e **ChangeNotifier**, permitindo que as informações sejam compartilhadas e atualizadas entre as diferentes telas.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Cadastro de veículos
+- Visualização dos detalhes de cada veículo
+- Adicionar e remover veículos dos favoritos
+- Exclusão de veículos
+- Lista de carros favoritos
+- Atualização do estado entre as telas
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tecnologias utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Provider
+- ChangeNotifier
+
+## Objetivo
+
+Projeto desenvolvido como atividade acadêmica para aplicação dos conceitos de **gerenciamento de estado com Provider** em Flutter.
